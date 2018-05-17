@@ -5,4 +5,4 @@ Commit aggregator for NEMS Linux
 https://nemslinux.com/changelog/
 
 ## Install
-git clone --recursive https://github.com/Cat5TV/nems-commits
+git clone --recurse-submodules https://github.com/Cat5TV/nems-commits
