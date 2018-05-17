@@ -1,6 +1,8 @@
 #!/usr/bin/php
 <?php
 
+chdir(__DIR__); // just in case we're running in cron
+
 printf('Please wait...');
 exec("./pull.sh");
 echo ' ready.' . PHP_EOL;
