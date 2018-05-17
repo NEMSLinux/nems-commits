@@ -1,0 +1,15 @@
+[submodule "repos/nems-scripts"]
+	path = repos/nems-scripts
+	url = https://github.com/Cat5TV/nems-scripts
+[submodule "repos/nems-admin"]
+	path = repos/nems-admin
+	url = https://github.com/Cat5TV/nems-admin
+[submodule "repos/nems-migrator"]
+	path = repos/nems-migrator
+	url = https://github.com/Cat5TV/nems-migrator
+[submodule "repos/nems-www"]
+	path = repos/nems-www
+	url = https://github.com/Cat5TV/nems-www
+[submodule "repos/nconf"]
+	path = repos/nconf
+	url = https://github.com/Cat5TV/nconf
