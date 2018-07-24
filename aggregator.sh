@@ -95,6 +95,7 @@ chdir(".."); // return to the root of the aggregator
 
 echo 'Exporting data:';
 
+# Add more output options if you like (eg., JSON, XML)
 printf(' - Serialized Array...');
 file_put_contents('data/nems-commits.ser',serialize($sorted));
 echo ' done.' . PHP_EOL;
