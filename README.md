@@ -14,5 +14,7 @@ git clone --recurse-submodules https://github.com/Cat5TV/nems-commits
 $commits = unserialize(file_get_contents('/path/to/data/nems-commits.ser'));
 
 ## Add repo
+```
 cd repos
 git submodule add https://github.com/PATH_TO_REPOSITORY
+```
