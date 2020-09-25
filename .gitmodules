@@ -22,3 +22,6 @@
 [submodule "repos/nems-wmic"]
 	path = repos/nems-wmic
 	url = https://github.com/Cat5TV/nems-wmic
+[submodule "repos/nems-docs"]
+	path = repos/nems-docs
+	url = https://github.com/Cat5TV/nems-docs
