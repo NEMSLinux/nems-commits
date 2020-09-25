@@ -18,3 +18,4 @@ $commits = unserialize(file_get_contents('/path/to/data/nems-commits.ser'));
 cd repos
 git submodule add https://github.com/PATH_TO_REPOSITORY
 ```
+Once added, also visit Settings->Webhooks in the repository on GitHub and add the #development Discord webhook.
