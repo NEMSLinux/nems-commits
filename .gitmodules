@@ -49,3 +49,6 @@
 [submodule "repos/9590"]
 	path = repos/9590
 	url = https://github.com/NEMSLinux/9590
+[submodule "repos/nems-commits"]
+	path = repos/nems-commits
+	url = https://github.com/NEMSLinux/nems-commits

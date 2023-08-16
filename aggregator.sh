@@ -97,7 +97,7 @@ echo 'Exporting data:';
 
 # Add more output options if you like (eg., JSON, XML)
 printf(' - Serialized Array...');
-file_put_contents('data/nems-commits.ser',serialize($sorted));
+file_put_contents(__DIR__.'/data/nems-commits.ser',serialize($sorted));
 echo ' done.' . PHP_EOL;
 
 echo 'All done.' . PHP_EOL;
