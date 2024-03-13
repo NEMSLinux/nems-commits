@@ -19,3 +19,7 @@ cd repos
 git submodule add https://github.com/PATH_TO_REPOSITORY
 ```
 Once added, also visit Settings->Webhooks in the repository on GitHub and add the #development Discord webhook.
+
+## Delete a repo submodule
+SUBMOD=nameofrepo
+git submodule deinit -f repos/${SUBMOD} && rm -rf .git/modules/repos/${SUBMOD} && git rm -f repos/${SUBMOD}
