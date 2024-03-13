@@ -10,6 +10,7 @@
 [submodule "repos/nconf"]
 	path = repos/nconf
 	url = https://github.com/Cat5TV/nconf
+	branch = 1.6
 [submodule "repos/rpi-mkimg"]
 	path = repos/rpi-mkimg
 	url = https://github.com/Cat5TV/rpi-mkimg
